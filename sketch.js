@@ -227,16 +227,3 @@ function updateParticles() {
         p.draw();
     }
 }
-
-
-    /* // Assign background colors based on labels (version with static solid colors instead of animated)
-    if (bestClass === "oh") bgColor = [0, 191, 255, 180]; // Electric Blue
-    else if (bestClass === "dey") bgColor = [255, 0, 255, 180]; // Pink
-    else if (bestClass === "shoki") bgColor = [50, 205, 50, 180]; // Lime Green
-    else if (bestClass === "haa") bgColor = [255, 140, 0, 180]; // Bright Orange
-    else bgColor = [200, 200, 200, 100]; // Default gray
-
-    console.log("Best Prediction:", bestClass, highestProb, "Color:", bgColor);
-}
-
-*/
